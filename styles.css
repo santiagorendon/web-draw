@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+#container{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%; height: 100vh; /* vertical height */
+  background-image: url('media/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#snow{
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+  mix-blend-mode: luminosity;
+  z-index: 9;
+}
+#img1{
+  position: relative;
+  left:75%;
+  top: 60%;
+  height: 350px;
+}
+#player{
+  position: absolute;
+  left:0;
+  top: 0;
+  z-index: 10;
+}
